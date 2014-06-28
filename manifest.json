@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Guardian -> Vine -> Goals",
+  "description": "...",
+  "version": "1.1",
+  "permissions": [
+    "http://www.theguardian.com/*",
+    "https://www.twitter.com/*"
+  ],
+  "content_scripts": [{
+    "js": [ "gooooooooooooooal.js" ],
+    "matches": [ "http://www.theguardian.com/football/*-live-report" ]
+  }]
+}
