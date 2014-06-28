@@ -42,7 +42,7 @@
 
             sendRequest(teams[0].textContent + '%20' + teams[1].textContent);
 
-        }, 5000);
+        }, 20000);
 
         var css = document.createElement('style');
         css.textContent  = '.twitter-hashflag { display: none; }'
