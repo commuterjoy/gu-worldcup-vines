@@ -9,6 +9,6 @@
   ],
   "content_scripts": [{
     "js": [ "gooooooooooooooal.js" ],
-    "matches": [ "http://www.theguardian.com/football/*-live-report" ]
+    "matches": [ "http://www.theguardian.com/football/*-live*" ]
   }]
 }
