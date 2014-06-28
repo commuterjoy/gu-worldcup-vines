@@ -2,7 +2,7 @@
     var sendRequest = function (teams) {
         console.log("gu: Sending request for ", teams);
         var req = new XMLHttpRequest();
-        req.open("GET", "https://twitter.com/search?q="+teams+"vine.co%20goal", true);
+        req.open("GET", "https://twitter.com/search?q="+teams+"vine.co", true);
         req.onreadystatechange = function() {
             if (req.readyState == 4) {
                 if (req.status == 200) {
@@ -42,7 +42,7 @@
 
             sendRequest(teams[0].textContent + '%20' + teams[1].textContent);
 
-        }, 20000);
+        }, 30000);
 
         var css = document.createElement('style');
         css.textContent  = '.twitter-hashflag { display: none; }'
