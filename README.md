@@ -1,9 +1,13 @@
 
 This Chrome extension adds a live goal [Vine](https://vine.co/) feed to The Guardian's World Cup live blogs.
 
+For example, 
+
 <img src="vines.png"/>
 
 The feed refreshes every 60 seconds.
+
+It should work on all current and [past games](http://www.theguardian.com/football/live).
 
 To install download the code, go to chrome://extensions/ in Chrome, turn on 'developer mode' and load the application using the 'load unpacked extension'.
 
