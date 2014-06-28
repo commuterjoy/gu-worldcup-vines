@@ -43,7 +43,7 @@
         }
 
         var css = document.createElement('style');
-        css.textContent  = '.twitter-hashflag { display: none; }'
+        css.textContent  = '.tweetx img { display: none; }'
         css.textContent += '.tweetx { background-color: white; padding: 5px; box-sizing: border-box; margin: 10px 0; border-bottom: 1px solid #999; display: block; font-family: "AgateSans",sans-serif; font-size: 12px;}'
         document.body.appendChild(css);
 
