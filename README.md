@@ -16,7 +16,7 @@ To install download the code, go to chrome://extensions/ in Chrome, turn on 'dev
 
 ## To-do
 
-- Use OAuth might avoid my IP address being blocked every 5 minutes :)
+- Using OAuth might avoid my IP address being blocked every 5 minutes :)
 - Scan the blog text for words like 'red card', 'penalty' and add them to the Twitter search terms.
 - Embed the Vines in to the page.
 
