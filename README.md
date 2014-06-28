@@ -1,7 +1,7 @@
 
 This Chrome extension adds a live goal [Vine](https://vine.co/) feed to The Guardian's World Cup live blogs.
 
-<img src="vine.png"/>
+<img src="vines.png"/>
 
 The feed refreshes every 5 seconds.
 
